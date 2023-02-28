@@ -20,7 +20,6 @@ public interface XssFilter{
      * 파라미터 'dirty' 와 'cast' 를 인자로 받고, <br>
      * 'dirty' 를 Xss-safe 한 상태로 필터링 한 결과를 'cast' 타입으로 반환함.
      *
-     * @throws org.stage.xss.core.exception.CannotXssFilterException 반환 도중 실패가 발생하면 이 에러가 던져져야함.
      * @param dirty Xss-safe 한 상태로 필터링 할 대상.
      * @param cast Xss-safe 한 객체가 반환될 타입.
      * @return Xss-safe 한 객체

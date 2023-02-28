@@ -22,13 +22,13 @@ public @interface Xss{
      *
      * @return String 이 파라미터를 필터링할때 사용할 {@link org.stage.xss.core.spi.XssFilter} 의 이름
      */
-    String value();
+    String value() default "";
 
     /**
      * value() 메소드와 같은 역할을 함.
      *
      * @return value() 메소드와 같음.
      */
-    String filterName();
+    String filterName() default "";
 
 }
