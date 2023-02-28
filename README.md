@@ -1,4 +1,6 @@
-# xss-core
+<img src = "https://raw.githubusercontent.com/xss-stage/.github/e5a1bfbfb1882be45ba42c58b27218830015004a/Frame%206.svg" width = "450" height = "auto"/>   
+
+#
 
 xss-stage는 다양한 xss 라이브러리를 통합하고 쉽게 적용하기 위해 탄생한 라이브러리 입니다.   
 xss-core는 자유롭게 XssFilter를 등록하고 확장하여 사용할 수 있으며, 요청단에서 xss 필터링을 진행하기 때문에, 응답과정에서 필터링을 진행하는 방식보다 특정 상황(응답이 요청보다 많은 상황)에서 더 효율적일 수 있습니다.   
