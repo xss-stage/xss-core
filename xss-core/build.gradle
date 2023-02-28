@@ -6,6 +6,11 @@ plugins {
     id 'java'
 }
 
+java{
+    withSourcesJar()
+    withJavadocJar()
+}
+
 group 'org.waldreg'
 version '1.0-SNAPSHOT'
 
