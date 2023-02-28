@@ -3,19 +3,15 @@ import org.springframework.boot.gradle.plugin.SpringBootPlugin
 plugins {
     id 'org.springframework.boot' version '2.7.1' apply false
     id 'io.spring.dependency-management' version '1.1.0'
+    id 'maven-publish'
     id 'java'
 }
 
-java{
-    withSourcesJar()
-    withJavadocJar()
-}
-
-group 'org.waldreg'
+group = 'com.github.xss-stage'
 version '1.0-SNAPSHOT'
 
-sourceCompatibility = '8'
-targetCompatibility = '8'
+sourceCompatibility = '1.8'
+targetCompatibility = '1.8'
 
 repositories {
     mavenCentral()
@@ -35,6 +31,11 @@ dependencies {
 
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+}
+
+java {
+    withSourcesJar()
+    withJavadocJar()
 }
 
 test {
