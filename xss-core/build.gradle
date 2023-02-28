@@ -38,11 +38,6 @@ test {
     useJUnitPlatform()
 }
 
-java {
-    withSourcesJar()
-    withJavadocJar()
-}
-
 publishing {
     publications {
         maven(MavenPublication) {
