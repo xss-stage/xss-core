@@ -19,7 +19,7 @@ json-extension : [xss-extension-json-1.1](https://github.com/xss-stage/xss-exten
 
 ## Usage
 xss-stage에서 사용할 수 있는 인터페이스와 확장법은 모두 xss-core 라이브러리에 작성되어 있습니다.   
-Custom Xss Filter가 필요한 상황이 필요한 상황이 아니라면, 다음 인터페이스로 Xss-filtering을 진행할 수 있습니다.   
+Custom Xss Filter가 필요한 상황이 아니라면, 다음 인터페이스로 Xss-filtering을 진행할 수 있습니다.   
 만약 Custom Xss Filter가 필요하다면, 이 다음 [목차](#Extension)를 참고하세요.
    
 > `@XssFiltering` : 메소드에 마킹가능하며, 마킹된 메소드는 XssFiltering의 대상이 됩니다.   
