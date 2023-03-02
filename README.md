@@ -2,7 +2,7 @@
 
 #
 
-xss-stage는 xss공격을 필터링하는 다양한 라이브러가 있지만, 적용방식이 제각각이며, 여러 xss 라이브러리를 함께 사용해야 하는 상황(예 : 특정 라이브러리가 비효율적인 상황일때)에서 다양한 라이브러리를 함께 적용하기 어려운 문제를 해결하기 위해 탄생했습니다.   
+xss-stage는 xss공격을 필터링하는 다양한 라이브러가 있지만, 적용방식이 제각각이며, 여러 xss 라이브러리를 함께 사용해야 하는 상황(예 : json을 필터링 해주지 못하는 [lucy-xss](https://github.com/naver/lucy-xss-servlet-filter) 와 json을 필터링해주는 다른 xss 라이브러리를 함께 사용해야할때)에서 다양한 라이브러리를 함께 적용하기 어려운 문제를 해결하기 위해 탄생했습니다.   
 
 [***Press Star***](https://github.com/xss-stage/xss-core/stargazers)   
    
