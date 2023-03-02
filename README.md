@@ -2,7 +2,7 @@
 
 #
 
-xss-stage는 xss공격을 필터링하는 다양한 라이브러가 있지만, 적용방식이 제각각이며, 여러 xss 라이브러리를 함께 사용해야 하는 상황(예 : json을 필터링 해주지 못하는 [lucy-xss](https://github.com/naver/lucy-xss-servlet-filter) 와 json을 필터링해주는 다른 xss 라이브러리를 함께 사용해야할때)에서 다양한 라이브러리를 함께 적용하기 어려운 문제를 해결하기 위해 탄생했습니다.   
+xss-stage는 이미 다양한 xss공격을 필터링하는 라이브러리가 있지만, 라이브러리 마다 적용방식이 제각각이며, 여러 xss 라이브러리를 함께 사용해야 하는 상황(예 : json을 필터링 해주지 못하는 [lucy-xss](https://github.com/naver/lucy-xss-servlet-filter) 와 json을 필터링해주는 다른 xss 라이브러리를 함께 사용해야할때)에서 다양한 라이브러리를 함께 적용하기 어려운 문제를 해결하고 일관된 방식으로 적용하는것을 돕기 위해 탄생했습니다.   
 
 [***Press Star***](https://github.com/xss-stage/xss-core/stargazers)   
    
@@ -12,14 +12,15 @@ xss-stage는 xss공격을 필터링하는 다양한 라이브러가 있지만, �
 
 
 ## Overview
-**xss-stage를 사용하면 다음과 같은 장점이 있습니다.**
+xss-stage를 사용하면 다음과 같은 장점이 있습니다.
   
-1. 일관되고 쉬운 적용 방식 - 각 상황에 효율적인 다양한 라이브러리를 일관된 적용방식으로 적용할 수 있습니다.
-2. 쉬운 확장과 커스텀 - XssFiltering 인터페이스를 구현하고 스프링 빈으로 등록하면, 이 구현체를 이용해 필터링 을 할 수 있습니다.
-3. 선택적인 Xss filtering - 꼭 필요한 파라미터와 url만 Xss filtering 대상으로 지정할 수 있습니다.
-4. 낮은 라이브러리 의존성 - Xss core에서 제공하는 인터페이스를 통해 언제든지 구체적인 필터링 라이브러리를 교체할 수 있습니다.
-5. 검증된 filtering 구현체들 - Xss stage 확장인 xss-extension-string, xss-extension-core는 각각 jackson, navercorp-lucy를 사용해 구현되어 있습니다.
-6. 요청에서 진행되는 xss filtering - Xss stage는 요청시에 xss filtering이 진행되기 때문에 응답이 더 많은 상황에서 더 효율적일 수 있습니다.
+1. **일관적이고 쉬운 적용 방식** - 각 상황에 효율적인 다양한 라이브러리를 일관된 적용방식으로 적용할 수 있습니다.
+2. **쉬운 확장과 커스텀** - XssFiltering 인터페이스를 구현하고 스프링 빈으로 등록하면, 이 구현체를 이용해 대상을 필터링 할 수 있습니다.
+3. **선택적인 Xss filtering** - 꼭 필요한 파라미터와 url만 Xss filtering 대상으로 지정할 수 있습니다.
+4. **낮은 라이브러리 의존성** - Xss core에서 제공하는 인터페이스를 통해 의존성을 줄여, 언제든지 구체적인 필터링 라이브러리를 교체할 수 있습니다.
+5. **검증된 filtering 구현체들** - Xss stage 확장인 xss-extension-string, xss-extension-json는 각각 navercorp-lucy, jackson을 사용해 구현되어 있습니다.
+6. **요청에서 진행되는 xss filtering** - Xss stage는 요청시에 xss filtering이 진행되기 때문에 응답이 더 많은 상황에서 더 효율적일 수 있습니다.
+7. **한곳에서 관리하는 xss filtering 정책** - 정책 관리 파트에서 구현한 XssFiltering구현체를 등록하고, 다른 파트에서 @Xss 어노테이션을 통해 구현체를 선택하는 방식으로 한 곳에서 애플리케이션 전체적인 Xss filtering 정책을 관리할 수 있습니다.
    
 ## Extensions
 core : [xss-core-1.1](https://github.com/xss-stage/xss-core)    
