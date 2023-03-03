@@ -3,16 +3,8 @@ import org.springframework.boot.gradle.plugin.SpringBootPlugin
 plugins {
     id 'java'
     id 'maven-publish'
-    id 'org.springframework.boot' version '2.7.1'
+    id 'org.springframework.boot' version '2.7.1' apply false
     id 'io.spring.dependency-management' version '1.1.0'
-}
-
-bootJar{
-    enabled=false
-}
-
-jar{
-    enabled=true
 }
 
 group = 'com.github.xss-stage'
@@ -20,11 +12,6 @@ version '1.1'
 
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
-
-java{
-    withSourcesJar()
-    withJavadocJar()
-}
 
 repositories {
     mavenCentral()
