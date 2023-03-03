@@ -1,11 +1,12 @@
 import org.springframework.boot.gradle.plugin.SpringBootPlugin
 
 plugins {
-    id 'java'
     id 'org.springframework.boot' version '2.7.1' apply false
     id 'io.spring.dependency-management' version '1.1.0'
-    id 'maven-publish'
 }
+
+apply plugin: 'java'
+apply plugin: 'maven-publish'
 
 group = 'com.github.xss-stage'
 version '1.1'
