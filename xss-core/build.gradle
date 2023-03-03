@@ -45,6 +45,10 @@ test {
 publishing {
     publications {
         maven(MavenPublication) {
+            group = 'com.github.xss-stage'
+            artifactId = 'xss-core'
+            version = '1.2'
+
             from components.java
         }
     }
