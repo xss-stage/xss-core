@@ -1,7 +1,7 @@
 import org.springframework.boot.gradle.plugin.SpringBootPlugin
 
 plugins {
-    id 'org.springframework.boot' version '2.7.1' apply false
+    id 'org.springframework.boot' version '2.7.1'
     id 'io.spring.dependency-management' version '1.1.0'
     id 'java'
     id 'maven-publish'
@@ -13,6 +13,14 @@ version '1.2'
 java{
     withSourcesJar()
     withJavadocJar()
+}
+
+bootJar {
+    enabled=false
+}
+
+jar {
+    enabled=true
 }
 
 sourceCompatibility = 1.8
@@ -45,11 +53,7 @@ test {
 publishing {
     publications {
         maven(MavenPublication) {
-            group = 'com.github.xss-stage'
-            artifactId = 'xss-core'
-            version = '1.2'
-
-            from components.java
+            artifact jar
         }
     }
 }
