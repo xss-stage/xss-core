@@ -8,7 +8,7 @@ xss-stage는 이미 다양한 xss공격을 필터링하는 라이브러리가 �
    
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fxss-stage&count_bg=%23FF4848&title_bg=%232D2D2D&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com) [![made with love](https://camo.githubusercontent.com/c6c5b56fc051557203c6dffa4242b41b09ff22f6303da15e47162a5c1691e8a5/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d616465253230776974682d4c6f76652d2d2545322539442541342d726564)](https://camo.githubusercontent.com/c6c5b56fc051557203c6dffa4242b41b09ff22f6303da15e47162a5c1691e8a5/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d616465253230776974682d4c6f76652d2d2545322539442541342d726564)  
 ![needed jdk version](https://img.shields.io/badge/JDK-8-blue)   
-![api-version](https://img.shields.io/badge/xss--core-1.1-3F9DE5)  ![api-version](https://img.shields.io/badge/xss--extension--string-1.1-92CE64)  ![api-version](https://img.shields.io/badge/xss--extension--json-1.1-F29494)
+![api-version](https://img.shields.io/badge/xss--core-1.2-3F9DE5)  ![api-version](https://img.shields.io/badge/xss--extension--string-1.2-92CE64)  ![api-version](https://img.shields.io/badge/xss--extension--json-1.2-F29494)
 
 
 ## Overview
@@ -23,9 +23,9 @@ xss-stage를 사용하면 다음과 같은 장점이 있습니다.
 7. **한곳에서 관리하는 xss filtering 정책** - 정책 관리 파트에서 구현한 XssFiltering구현체를 등록하고, 다른 파트에서 @Xss 어노테이션을 통해 구현체를 선택하는 방식으로 한 곳에서 애플리케이션 전체적인 Xss filtering 정책을 관리할 수 있습니다.
    
 ## Extensions
-core : [xss-core-1.1](https://github.com/xss-stage/xss-core)    
-string-extension : [xss-extension-string-1.1](https://github.com/xss-stage/xss-extension-string) - naver의 lucy-xss 라이브러리를 사용해 구현되어 있습니다.   
-json-extension : [xss-extension-json-1.1](https://github.com/xss-stage/xss-extension-json) - jackson의 databind를 사용해 구현되어 있습니다.   
+core : [xss-core](https://github.com/xss-stage/xss-core)    
+string-extension : [xss-extension-string](https://github.com/xss-stage/xss-extension-string) - naver의 lucy-xss 라이브러리를 사용해 구현되어 있습니다.   
+json-extension : [xss-extension-json](https://github.com/xss-stage/xss-extension-json) - jackson의 databind를 사용해 구현되어 있습니다.   
 
 ## Downloads
 다운로드에 관한 자세한 내용은 [여기](https://github.com/xss-stage)를 참조해주세요.
