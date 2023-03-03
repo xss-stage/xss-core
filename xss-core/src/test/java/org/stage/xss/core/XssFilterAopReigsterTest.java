@@ -7,6 +7,7 @@ import org.springframework.aop.aspectj.annotation.AspectJProxyFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
+import org.stage.xss.core.config.XssStageConfigurer;
 import org.stage.xss.core.exception.UnknownXssFilterName;
 import org.stage.xss.core.spi.TestXssFilter;
 
@@ -17,7 +18,7 @@ import static org.junit.jupiter.api.Assertions.*;
     XssFilterAop가 XssFilter에 Filtering과정을 잘 넘겨주는지 테스트함.
  */
 @ExtendWith(SpringExtension.class)
-@ContextConfiguration(classes = {XssFilterAop.class, TestXssFilter.class})
+@ContextConfiguration(classes = {XssStageConfigurer.class, TestXssFilter.class})
 class XssFilterAopReigsterTest{
 
     @Autowired
