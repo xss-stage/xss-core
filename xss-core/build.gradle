@@ -10,7 +10,7 @@ plugins {
 group = 'com.github.xss-stage'
 version '1.1'
 
-task{
+java{
     withSourcesJar()
     withJavadocJar()
 }
