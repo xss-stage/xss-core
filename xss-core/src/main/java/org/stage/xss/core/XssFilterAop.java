@@ -7,20 +7,16 @@ import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 import org.stage.xss.core.exception.UnknownXssFilterName;
 import org.stage.xss.core.meta.Xss;
 import org.stage.xss.core.spi.XssFilter;
 
 @Aspect
-@Component
 public class XssFilterAop{
 
     private final List<XssFilter> xssFilters;
 
-    @Autowired
-    XssFilterAop(List<XssFilter> xssFilters){
+    public XssFilterAop(List<XssFilter> xssFilters){
         this.xssFilters = xssFilters;
     }
 
