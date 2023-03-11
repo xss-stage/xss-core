@@ -1,4 +1,4 @@
-package org.stage.xss.core;
+package org.stage.xss.core.engine.aop;
 
 import java.lang.reflect.Method;
 import java.lang.reflect.Parameter;
@@ -7,16 +7,17 @@ import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
+import org.stage.xss.core.engine.XssStageEngine;
 import org.stage.xss.core.exception.UnknownXssFilterName;
 import org.stage.xss.core.meta.Xss;
 import org.stage.xss.core.spi.XssFilter;
 
 @Aspect
-public class XssFilterAop{
+public class XssFilterAopEngine implements XssStageEngine<Object, ProceedingJoinPoint>{
 
     private final List<XssFilter> xssFilters;
 
-    public XssFilterAop(List<XssFilter> xssFilters){
+    public XssFilterAopEngine(List<XssFilter> xssFilters){
         this.xssFilters = xssFilters;
     }
 

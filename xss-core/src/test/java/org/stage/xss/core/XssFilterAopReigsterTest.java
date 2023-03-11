@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 import org.stage.xss.core.config.XssStageConfigurer;
+import org.stage.xss.core.engine.aop.XssFilterAopEngine;
 import org.stage.xss.core.exception.UnknownXssFilterName;
 import org.stage.xss.core.spi.TestXssFilter;
 
@@ -22,7 +23,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class XssFilterAopReigsterTest{
 
     @Autowired
-    private XssFilterAop xssFilterAop;
+    private XssFilterAopEngine xssFilterAop;
 
     @Test
     @DisplayName("Xss Filtering 파라미터 한개 성공 테스트")
