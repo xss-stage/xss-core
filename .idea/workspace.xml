@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9cda2089-2bc3-4bef-8f7e-8b35572e7225" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xss-core/.idea/sonarlint/issuestore/2/8/2807c9aba7365fbe10f33b168f2d340d60ab4e4d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xss-core/.idea/sonarlint/issuestore/2/f/2f3a8ff32edbb8dd7ea1a85905b733e1ca1f1b51" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xss-core/.idea/sonarlint/issuestore/5/b/5bbfa66edb4db3c7c33c5181f43510990d3307f9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xss-core/.idea/sonarlint/issuestore/7/2/722eb273c0c817aac16b2f1ecd07db722dc65219" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xss-core/.idea/sonarlint/issuestore/7/a/7ac48e6568eb64a373e3e545fa1785cb9f7b4d95" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xss-core/.idea/sonarlint/issuestore/9/a/9a3241d7225bd63e82c9ef7d6ff966885b570d87" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xss-core/.idea/sonarlint/issuestore/a/5/a5919f4e01eea0b3fa1cfd6bf7ea6b7a1272b78b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xss-core/.idea/sonarlint/issuestore/b/2/b2c7d9aaef5b3e007a16500087f6b4467abf399f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xss-core/.idea/sonarlint/issuestore/d/7/d7bf1f9e3a28ef7cc7fafe0300552bd72ffdcb1b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xss-core/.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xss-core/.idea/sonarlint/issuestore/f/b/fbe448ebfc3eb2d4e308f6b8b043666f5b57235e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-core/.gradle/7.3.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/xss-core/.gradle/7.3.3/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-core/.gradle/7.3.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/xss-core/.gradle/7.3.3/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-core/.gradle/7.3.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/xss-core/.gradle/7.3.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-core/.gradle/7.3.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/xss-core/.gradle/7.3.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-core/.gradle/7.3.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/xss-core/.gradle/7.3.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-core/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/xss-core/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-core/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/xss-core/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-core/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/xss-core/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-core/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/xss-core/build.gradle" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/xss-core">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="v49kffr3" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2QCMM0RAHh1LpXIapdnBEyCQEpp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/devxb/develop/xss-stage/xss-core"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="9cda2089-2bc3-4bef-8f7e-8b35572e7225" name="변경" comment="" />
+      <created>1684853058466</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684853058466</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
